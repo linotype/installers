@@ -1,0 +1,25 @@
+{
+    "name": "linotype/installers",
+    "description": "Extend the composer/installers plugin to accept linotype package type.",
+    "homepage": "https://linotype.dev/",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yannick Armspach",
+            "email": "yannick.armspach@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"Linotype\\Composer": "src/"}
+    },
+    "extra": {
+        "class": "Linotype\\Composer\\LinotypeInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "^1.1 || ^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "^1.3"
+    }
+}
