@@ -1,6 +1,6 @@
 <?php
 
-namespace Linotype\Composer\Installer;
+namespace Linotype\Composer\Installers;
 
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;

@@ -5,7 +5,7 @@ namespace Linotype\Composer;
 use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
-use Linotype\Composer\Installer\LinotypeInstaller;
+use Linotype\Composer\Installers\LinotypeInstaller;
 
 class LinotypeInstallerPlugin implements PluginInterface
 {
