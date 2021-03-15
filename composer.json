@@ -11,13 +11,16 @@
         }
     ],
     "autoload": {
-        "psr-0": {"Linotype\\Composer\\": "src/"}
+        "psr-4": {
+            "Linotype\\Composer\\": "src/"
+        }
     },
     "extra": {
         "class": "Linotype\\Composer\\LinotypeInstallerPlugin"
     },
     "require": {
-        "composer-plugin-api": "^1.1 || ^2.0"
+        "composer-plugin-api": "^1.1 || ^2.0",
+        "composer/installers": "^1.0"
     },
     "require-dev": {
         "composer/composer": "^1.3"
