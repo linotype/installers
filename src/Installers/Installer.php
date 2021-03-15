@@ -40,6 +40,14 @@ class Installer extends InstallerBase
      */
     public function getInstallerTypes(): array
     {
-        return ['linotype'];
+        return [
+            'linotype',
+            'linotype-block',
+            'linotype-field',
+            'linotype-helper',
+            'linotype-module',
+            'linotype-template',
+            'linotype-theme',
+        ];
     }
 }
