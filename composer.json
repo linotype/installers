@@ -11,7 +11,7 @@
         }
     ],
     "autoload": {
-        "psr-0": {"Linotype\\Composer": "src/"}
+        "psr-0": {"Linotype\\Composer\\": "src/"}
     },
     "extra": {
         "class": "Linotype\\Composer\\LinotypeInstallerPlugin"
