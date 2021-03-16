@@ -44,6 +44,7 @@ class Installer extends InstallerBase
             'linotype',
             'linotype-block',
             'linotype-field',
+            'linofield',
             'linotype-helper',
             'linotype-module',
             'linotype-template',
