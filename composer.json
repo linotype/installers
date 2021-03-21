@@ -1,6 +1,6 @@
 {
     "name": "linotype/installers",
-    "description": "Extend the composer/installers plugin to accept linotype package type.",
+    "description": "Linotype composer installer",
     "homepage": "https://linotype.dev/",
     "type": "composer-plugin",
     "license": "MIT",
